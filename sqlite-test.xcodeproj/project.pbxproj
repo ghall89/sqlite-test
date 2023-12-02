@@ -7,19 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D343BFBF2B1A613700AD4BD7 /* createDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D343BFBE2B1A613700AD4BD7 /* createDoc.swift */; };
+		D3908B302B1A3B1900993AD0 /* SQLiteORM in Frameworks */ = {isa = PBXBuildFile; productRef = D3908B2F2B1A3B1900993AD0 /* SQLiteORM */; };
 		D3A624DC2B1A1D8000AF5C0D /* sqlite_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A624DB2B1A1D8000AF5C0D /* sqlite_testApp.swift */; };
 		D3A624DE2B1A1D8000AF5C0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A624DD2B1A1D8000AF5C0D /* ContentView.swift */; };
 		D3A624E02B1A1D8100AF5C0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A624DF2B1A1D8100AF5C0D /* Assets.xcassets */; };
 		D3A624E32B1A1D8100AF5C0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A624E22B1A1D8100AF5C0D /* Preview Assets.xcassets */; };
+		D3A624EE2B1A1E2700AF5C0D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A624ED2B1A1E2700AF5C0D /* User.swift */; };
+		D3A624F02B1A1ED100AF5C0D /* generateTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A624EF2B1A1ED100AF5C0D /* generateTestData.swift */; };
+		D3A624F42B1A283200AF5C0D /* connectToDb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A624F32B1A283200AF5C0D /* connectToDb.swift */; };
+		D3A9E03D2B1AC2E300D8E870 /* generateId.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9E03C2B1AC2E300D8E870 /* generateId.swift */; };
+		D3DF6DF92B1A58F400F544BA /* schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF6DF82B1A58F400F544BA /* schema.swift */; };
+		D3DF6DFB2B1A5A6100F544BA /* getAllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DF6DFA2B1A5A6100F544BA /* getAllUsers.swift */; };
+		D3E4AFF12B1A6EF800601073 /* LIcense.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AFF02B1A6EF800601073 /* LIcense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D343BFBE2B1A613700AD4BD7 /* createDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createDoc.swift; sourceTree = "<group>"; };
 		D3A624D82B1A1D8000AF5C0D /* sqlite-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sqlite-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A624DB2B1A1D8000AF5C0D /* sqlite_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sqlite_testApp.swift; sourceTree = "<group>"; };
 		D3A624DD2B1A1D8000AF5C0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D3A624DF2B1A1D8100AF5C0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3A624E22B1A1D8100AF5C0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3A624E42B1A1D8100AF5C0D /* sqlite_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sqlite_test.entitlements; sourceTree = "<group>"; };
+		D3A624ED2B1A1E2700AF5C0D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D3A624EF2B1A1ED100AF5C0D /* generateTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateTestData.swift; sourceTree = "<group>"; };
+		D3A624F32B1A283200AF5C0D /* connectToDb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectToDb.swift; sourceTree = "<group>"; };
+		D3A9E03C2B1AC2E300D8E870 /* generateId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generateId.swift; sourceTree = "<group>"; };
+		D3DF6DF82B1A58F400F544BA /* schema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schema.swift; sourceTree = "<group>"; };
+		D3DF6DFA2B1A5A6100F544BA /* getAllUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getAllUsers.swift; sourceTree = "<group>"; };
+		D3E4AFF02B1A6EF800601073 /* LIcense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIcense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3908B302B1A3B1900993AD0 /* SQLiteORM in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +70,14 @@
 		D3A624DA2B1A1D8000AF5C0D /* sqlite-test */ = {
 			isa = PBXGroup;
 			children = (
+				D3DF6DF62B1A582F00F544BA /* db */,
 				D3A624DB2B1A1D8000AF5C0D /* sqlite_testApp.swift */,
 				D3A624DD2B1A1D8000AF5C0D /* ContentView.swift */,
 				D3A624DF2B1A1D8100AF5C0D /* Assets.xcassets */,
 				D3A624E42B1A1D8100AF5C0D /* sqlite_test.entitlements */,
 				D3A624E12B1A1D8100AF5C0D /* Preview Content */,
+				D3E4AFEF2B1A6EEB00601073 /* Models */,
+				D3A624EF2B1A1ED100AF5C0D /* generateTestData.swift */,
 			);
 			path = "sqlite-test";
 			sourceTree = "<group>";
@@ -67,6 +88,27 @@
 				D3A624E22B1A1D8100AF5C0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3DF6DF62B1A582F00F544BA /* db */ = {
+			isa = PBXGroup;
+			children = (
+				D3DF6DF82B1A58F400F544BA /* schema.swift */,
+				D3A624F32B1A283200AF5C0D /* connectToDb.swift */,
+				D3DF6DFA2B1A5A6100F544BA /* getAllUsers.swift */,
+				D343BFBE2B1A613700AD4BD7 /* createDoc.swift */,
+				D3A9E03C2B1AC2E300D8E870 /* generateId.swift */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		D3E4AFEF2B1A6EEB00601073 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3A624ED2B1A1E2700AF5C0D /* User.swift */,
+				D3E4AFF02B1A6EF800601073 /* LIcense.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +127,9 @@
 			dependencies = (
 			);
 			name = "sqlite-test";
+			packageProductDependencies = (
+				D3908B2F2B1A3B1900993AD0 /* SQLiteORM */,
+			);
 			productName = "sqlite-test";
 			productReference = D3A624D82B1A1D8000AF5C0D /* sqlite-test.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +158,9 @@
 				Base,
 			);
 			mainGroup = D3A624CF2B1A1D8000AF5C0D;
+			packageReferences = (
+				D3908B2E2B1A3B1900993AD0 /* XCRemoteSwiftPackageReference "sqlite-orm-swift" */,
+			);
 			productRefGroup = D3A624D92B1A1D8000AF5C0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D343BFBF2B1A613700AD4BD7 /* createDoc.swift in Sources */,
+				D3DF6DFB2B1A5A6100F544BA /* getAllUsers.swift in Sources */,
 				D3A624DE2B1A1D8000AF5C0D /* ContentView.swift in Sources */,
 				D3A624DC2B1A1D8000AF5C0D /* sqlite_testApp.swift in Sources */,
+				D3DF6DF92B1A58F400F544BA /* schema.swift in Sources */,
+				D3A624F02B1A1ED100AF5C0D /* generateTestData.swift in Sources */,
+				D3A624EE2B1A1E2700AF5C0D /* User.swift in Sources */,
+				D3A624F42B1A283200AF5C0D /* connectToDb.swift in Sources */,
+				D3E4AFF12B1A6EF800601073 /* LIcense.swift in Sources */,
+				D3A9E03D2B1AC2E300D8E870 /* generateId.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3908B2E2B1A3B1900993AD0 /* XCRemoteSwiftPackageReference "sqlite-orm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fnc12/sqlite-orm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3908B2F2B1A3B1900993AD0 /* SQLiteORM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3908B2E2B1A3B1900993AD0 /* XCRemoteSwiftPackageReference "sqlite-orm-swift" */;
+			productName = SQLiteORM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3A624D02B1A1D8000AF5C0D /* Project object */;
 }

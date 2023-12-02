@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sqlite-orm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fnc12/sqlite-orm-swift",
+      "state" : {
+        "revision" : "f8a888ef8be0d3376d72c8ffafb102467d591759",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
