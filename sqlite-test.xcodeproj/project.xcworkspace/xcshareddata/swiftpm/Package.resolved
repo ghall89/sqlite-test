@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "sqlite-orm-swift",
+      "identity" : "grdb.swift",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/fnc12/sqlite-orm-swift",
+      "location" : "https://github.com/groue/GRDB.swift",
       "state" : {
-        "revision" : "f8a888ef8be0d3376d72c8ffafb102467d591759",
-        "version" : "0.0.1"
+        "branch" : "master",
+        "revision" : "eacbdf23af4228dea3bd0e5feb17c0f953829c15"
       }
     }
   ],
